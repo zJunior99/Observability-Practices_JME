@@ -33,6 +33,8 @@ Services available at:
 - Grafana → http://localhost:3000 (user: `admin`, password: `admin`)
 
 ## Project Structure
+
+```
 ├── app/
 │   ├── main.py           # FastAPI app with metrics
 │   └── metrics.py        # Prometheus metrics definition
@@ -43,10 +45,11 @@ Services available at:
 ├── docker-compose.yml    # Full observability stack
 ├── Dockerfile            # API image
 └── .github/workflows/    # CI/CD pipeline
+```
 
 ## Article
 
-[Observability in Modern Applications: Prometheus + Grafana + Python](https://medium.com/TU_LINK)
+[Observability in Modern Applications: Prometheus + Grafana + Python](https://medium.com/@jm2022075474/observability-in-modern-applications-prometheus-grafana-python-499e11e94e12?sharedUserId=jm2022075474)
 
 ## Student
 
